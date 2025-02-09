@@ -1,0 +1,15 @@
+{
+    "appsCount": {
+        "percentage": 14.099999999999998,
+        "total": 1000,
+        "current": 141,
+        "licenseStatus": {
+            "isLicenseValid": true,
+            "isExpired": false,
+            "licenseType": "enterprise",
+            "expiryDate": "2026-02-07T23:59:59.000Z"
+        },
+        "label": "Workflows",
+        "canAddUnlimited": false
+    }
+}

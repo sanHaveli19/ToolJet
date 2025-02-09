@@ -1,0 +1,13 @@
+{
+    "imports": {
+        "app": [
+            {
+                "id": "e32d7e04-c313-4f3f-a725-72c060137483",
+                "name": "test-export-1739011525597"
+            }
+        ],
+        "tooljet_database": [],
+        "tableNameMapping": {}
+    },
+    "success": true
+}

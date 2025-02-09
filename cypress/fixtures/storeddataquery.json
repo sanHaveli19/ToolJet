@@ -1,0 +1,434 @@
+{
+    "data_queries": [
+        {
+            "id": "1fc72c83-c7a8-49da-b75f-afdc414badf9",
+            "name": "peerComparison",
+            "options": {
+                "code": "function calculatePeerComparison(employee) {\n  const avgScore =\n    (employee.overall_score +\n      employee.teamwork_score +\n      employee.communication_score +\n      employee.skillset_score) /\n    4;\n\n  let peerComparisonScore = 0;\n  let peerComparisonType = \"\";\n\n  if (avgScore >= 8) {\n    peerComparisonScore = 9;\n    peerComparisonType = \"Great Employee\";\n  } else if (avgScore >= 6) {\n    peerComparisonScore = 7;\n    peerComparisonType = \"Average Employee\";\n  } else {\n    peerComparisonScore = 5;\n    peerComparisonType = \"Below Average Employee\";\n  }\n\n  return {\n    id: employee.id,\n    name: employee.name,\n    peerComparisonScore,\n    peerComparisonType,\n  };\n}\n\nconst result = calculatePeerComparison(components.table1.selectedRow);\nreturn result;",
+                "hasParamSupport": true,
+                "parameters": []
+            },
+            "app_version_id": "1408181a-49cb-478f-b7a0-4d72e0cc274d",
+            "created_at": "2025-02-08T08:32:48.590Z",
+            "updated_at": "2025-02-08T08:32:48.590Z",
+            "plugins": [],
+            "kind": "runjs"
+        },
+        {
+            "id": "108988b4-e77b-4269-bd42-e9b90b216a71",
+            "name": "addEmployee",
+            "options": {
+                "operation": "create_row",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+                "table_id": "d33f71a7-f242-4721-85f2-95cbdcb8259b",
+                "join_table": {
+                    "joins": [
+                        {
+                            "id": 1704266439899,
+                            "conditions": {
+                                "operator": "AND",
+                                "conditionsList": [
+                                    {
+                                        "operator": "=",
+                                        "leftField": {
+                                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                                        },
+                                        "rightField": {}
+                                    }
+                                ]
+                            },
+                            "joinType": "INNER"
+                        }
+                    ],
+                    "from": {
+                        "name": "e5e5e537-e70c-4fcd-a004-f726a98d9e49",
+                        "type": "Table"
+                    },
+                    "fields": [
+                        {
+                            "name": "id",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "name",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "email",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "designation",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "department",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "employee_id",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "overall_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "teamwork_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "communication_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "skillset_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "notes",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "headshot",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        }
+                    ]
+                },
+                "list_rows": {},
+                "create_row": {
+                    "0": {
+                        "column": "employee_id",
+                        "value": "{{components.textinput5.value}}"
+                    },
+                    "1": {
+                        "column": "headshot",
+                        "value": "{{components.textinput2.value}}"
+                    },
+                    "2": {
+                        "column": "name",
+                        "value": "{{components.textinput3.value}}"
+                    },
+                    "3": {
+                        "column": "email",
+                        "value": "{{components.textinput4.value}}"
+                    },
+                    "4": {
+                        "column": "designation",
+                        "value": "{{components.textinput6.value}}"
+                    },
+                    "5": {
+                        "column": "department",
+                        "value": "{{components.dropdown1.value}}"
+                    },
+                    "6": {
+                        "column": "overall_score",
+                        "value": "{{components.numberinput7.value}}"
+                    },
+                    "7": {
+                        "column": "teamwork_score",
+                        "value": "{{components.numberinput8.value}}"
+                    },
+                    "8": {
+                        "column": "communication_score",
+                        "value": "{{components.numberinput9.value}}"
+                    },
+                    "9": {
+                        "column": "skillset_score",
+                        "value": "{{components.numberinput6.value}}"
+                    },
+                    "b46cbce8-b479-4216-b42c-aeaad5da5520": {
+                        "column": "notes",
+                        "value": "{{components.textarea2.value}}"
+                    }
+                }
+            },
+            "app_version_id": "1408181a-49cb-478f-b7a0-4d72e0cc274d",
+            "created_at": "2025-02-08T08:32:48.590Z",
+            "updated_at": "2025-02-08T08:32:48.590Z",
+            "plugins": [],
+            "kind": "tooljetdb"
+        },
+        {
+            "id": "e8fc832f-cd5b-4073-a1ea-eaf6cea265a9",
+            "name": "updateEmployee",
+            "options": {
+                "operation": "update_rows",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+                "table_id": "d33f71a7-f242-4721-85f2-95cbdcb8259b",
+                "join_table": {
+                    "joins": [
+                        {
+                            "id": 1704271128416,
+                            "conditions": {
+                                "operator": "AND",
+                                "conditionsList": [
+                                    {
+                                        "operator": "=",
+                                        "leftField": {
+                                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                                        },
+                                        "rightField": {}
+                                    }
+                                ]
+                            },
+                            "joinType": "INNER"
+                        }
+                    ],
+                    "from": {
+                        "name": "e5e5e537-e70c-4fcd-a004-f726a98d9e49",
+                        "type": "Table"
+                    },
+                    "fields": [
+                        {
+                            "name": "id",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "name",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "email",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "designation",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "department",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "employee_id",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "overall_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "teamwork_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "communication_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "skillset_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "notes",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "headshot",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        }
+                    ]
+                },
+                "list_rows": {},
+                "update_rows": {
+                    "columns": {
+                        "0": {
+                            "column": "overall_score",
+                            "value": "{{components.form1.data.numberinput1.value}}"
+                        },
+                        "1": {
+                            "column": "teamwork_score",
+                            "value": "{{components.form1.data.numberinput2.value}}"
+                        },
+                        "2": {
+                            "column": "communication_score",
+                            "value": "{{components.form1.data.numberinput3.value}}"
+                        },
+                        "3": {
+                            "column": "skillset_score",
+                            "value": "{{components.form1.data.numberinput4.value}}"
+                        },
+                        "349bd811-b770-45e6-84f3-96abbde12f4d": {
+                            "column": "notes",
+                            "value": "{{components.form1.data.textinput1.value}}"
+                        }
+                    },
+                    "where_filters": {
+                        "85dd4019-98b4-4d00-b9d3-34787859cf66": {
+                            "column": "id",
+                            "operator": "eq",
+                            "value": "{{components.table1.selectedRow.id}}",
+                            "id": "85dd4019-98b4-4d00-b9d3-34787859cf66"
+                        }
+                    }
+                }
+            },
+            "app_version_id": "1408181a-49cb-478f-b7a0-4d72e0cc274d",
+            "created_at": "2025-02-08T08:32:48.590Z",
+            "updated_at": "2025-02-08T08:32:48.590Z",
+            "plugins": [],
+            "kind": "tooljetdb"
+        },
+        {
+            "id": "e0f95de5-ce2c-43d5-a081-8dcad7888068",
+            "name": "getEmployees",
+            "options": {
+                "operation": "list_rows",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+                "table_id": "d33f71a7-f242-4721-85f2-95cbdcb8259b",
+                "join_table": {
+                    "joins": [
+                        {
+                            "id": 1704188501306,
+                            "conditions": {
+                                "operator": "AND",
+                                "conditionsList": [
+                                    {
+                                        "operator": "=",
+                                        "leftField": {
+                                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                                        },
+                                        "rightField": {}
+                                    }
+                                ]
+                            },
+                            "joinType": "INNER"
+                        }
+                    ],
+                    "from": {
+                        "name": "e5e5e537-e70c-4fcd-a004-f726a98d9e49",
+                        "type": "Table"
+                    },
+                    "fields": [
+                        {
+                            "name": "id",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        }
+                    ]
+                },
+                "list_rows": {},
+                "create_row": {
+                    "73b16fd4-f0f5-48de-a75c-613e5f038c44": {
+                        "column": "",
+                        "value": ""
+                    }
+                },
+                "runOnPageLoad": true
+            },
+            "app_version_id": "1408181a-49cb-478f-b7a0-4d72e0cc274d",
+            "created_at": "2025-02-08T08:32:48.590Z",
+            "updated_at": "2025-02-08T08:32:48.590Z",
+            "plugins": [],
+            "kind": "tooljetdb"
+        },
+        {
+            "id": "be5ba6fb-77c2-46e2-a3ad-faa9099f8977",
+            "name": "removeEmployee",
+            "options": {
+                "operation": "delete_rows",
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+                "table_id": "d33f71a7-f242-4721-85f2-95cbdcb8259b",
+                "join_table": {
+                    "joins": [
+                        {
+                            "id": 1704271713809,
+                            "conditions": {
+                                "operator": "AND",
+                                "conditionsList": [
+                                    {
+                                        "operator": "=",
+                                        "leftField": {
+                                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                                        },
+                                        "rightField": {}
+                                    }
+                                ]
+                            },
+                            "joinType": "INNER"
+                        }
+                    ],
+                    "from": {
+                        "name": "e5e5e537-e70c-4fcd-a004-f726a98d9e49",
+                        "type": "Table"
+                    },
+                    "fields": [
+                        {
+                            "name": "id",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "name",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "email",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "designation",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "department",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "employee_id",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "overall_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "teamwork_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "communication_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "skillset_score",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "notes",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        },
+                        {
+                            "name": "headshot",
+                            "table": "e5e5e537-e70c-4fcd-a004-f726a98d9e49"
+                        }
+                    ]
+                },
+                "list_rows": {},
+                "delete_rows": {
+                    "limit": 1,
+                    "where_filters": {
+                        "ab621699-e856-4a8b-8628-1349d0cfef03": {
+                            "column": "id",
+                            "operator": "eq",
+                            "value": "{{components.table1.selectedRow.id}}",
+                            "id": "ab621699-e856-4a8b-8628-1349d0cfef03"
+                        }
+                    }
+                }
+            },
+            "app_version_id": "1408181a-49cb-478f-b7a0-4d72e0cc274d",
+            "created_at": "2025-02-08T08:32:48.590Z",
+            "updated_at": "2025-02-08T08:32:48.590Z",
+            "plugins": [],
+            "kind": "tooljetdb"
+        }
+    ]
+}

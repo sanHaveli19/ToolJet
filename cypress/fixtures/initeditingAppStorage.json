@@ -1,0 +1,67 @@
+{
+    "editorVersion": {
+        "id": "1408181a-49cb-478f-b7a0-4d72e0cc274d",
+        "name": "v1",
+        "appId": "d3863a4a-9952-4293-8f75-8bdf2daffe0a",
+        "currentEnvironmentId": "91c89cc3-c976-4b15-9973-0b60c2d7d39e"
+    },
+    "editorEnvironment": {
+        "id": "91c89cc3-c976-4b15-9973-0b60c2d7d39e",
+        "organizationId": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+        "name": "development",
+        "isDefault": false,
+        "priority": 1,
+        "enabled": true,
+        "createdAt": "2025-01-20T08:13:53.730Z",
+        "updatedAt": "2025-01-20T08:13:53.730Z",
+        "appVersionsCount": 1
+    },
+    "appVersionEnvironment": {
+        "id": "91c89cc3-c976-4b15-9973-0b60c2d7d39e",
+        "organizationId": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+        "name": "development",
+        "isDefault": false,
+        "priority": 1,
+        "enabled": true,
+        "createdAt": "2025-01-20T08:13:53.730Z",
+        "updatedAt": "2025-01-20T08:13:53.730Z",
+        "appVersionsCount": 1
+    },
+    "shouldRenderPromoteButton": true,
+    "shouldRenderReleaseButton": false,
+    "environments": [
+        {
+            "id": "91c89cc3-c976-4b15-9973-0b60c2d7d39e",
+            "organizationId": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "name": "development",
+            "isDefault": false,
+            "priority": 1,
+            "enabled": true,
+            "createdAt": "2025-01-20T08:13:53.730Z",
+            "updatedAt": "2025-01-20T08:13:53.730Z",
+            "appVersionsCount": 1
+        },
+        {
+            "id": "bdcf923b-b9c0-4861-bf21-2325eda2f1d7",
+            "organizationId": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "name": "staging",
+            "isDefault": false,
+            "priority": 2,
+            "enabled": true,
+            "createdAt": "2025-01-20T08:13:53.730Z",
+            "updatedAt": "2025-01-20T08:13:53.730Z",
+            "appVersionsCount": 0
+        },
+        {
+            "id": "fc050d06-6495-4750-a19e-2bbd52cb049c",
+            "organizationId": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "name": "production",
+            "isDefault": true,
+            "priority": 3,
+            "enabled": true,
+            "createdAt": "2025-01-20T08:13:53.730Z",
+            "updatedAt": "2025-01-20T08:13:53.730Z",
+            "appVersionsCount": 0
+        }
+    ]
+}

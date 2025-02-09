@@ -1,0 +1,20 @@
+{
+    "app": [
+        {
+            "id": "d3863a4a-9952-4293-8f75-8bdf2daffe0a",
+            "name": "Employee feedback"
+        }
+    ],
+    "tooljet_database": [
+        {
+            "id": "d33f71a7-f242-4721-85f2-95cbdcb8259b",
+            "table_name": "employee_feedback"
+        }
+    ],
+    "tableNameMapping": {
+        "3a10a0e5-07f8-4bb8-beba-c1f14c0b4342": {
+            "id": "d33f71a7-f242-4721-85f2-95cbdcb8259b",
+            "table_name": "employee_feedback"
+        }
+    }
+}

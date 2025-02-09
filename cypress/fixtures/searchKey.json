@@ -1,0 +1,146 @@
+{
+    "meta": {
+        "total_pages": 5,
+        "total_count": 42,
+        "folder_count": 0,
+        "current_page": 1
+    },
+    "apps": [
+        {
+            "id": "ad790a92-38bf-4053-b116-b6bb99c98083",
+            "name": "extample",
+            "slug": "ad790a92-38bf-4053-b116-b6bb99c98083",
+            "is_public": null,
+            "is_maintenance_on": false,
+            "icon": "floppydisk",
+            "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "current_version_id": null,
+            "user_id": "5538d429-04f0-4ec9-9666-17c85016905c",
+            "created_at": "2025-02-08T07:26:03.192Z",
+            "updated_at": "2025-02-08T07:26:03.191Z",
+            "user": {
+                "first_name": "Cypress",
+                "last_name": "test"
+            }
+        },
+        {
+            "id": "6f95b4ba-d823-4ae1-ac2a-392001ca9fc9",
+            "name": "tooljet-export-1738999443239",
+            "slug": "6f95b4ba-d823-4ae1-ac2a-392001ca9fc9",
+            "is_public": false,
+            "is_maintenance_on": false,
+            "icon": "folderupload",
+            "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "current_version_id": null,
+            "user_id": "5538d429-04f0-4ec9-9666-17c85016905c",
+            "created_at": "2025-02-08T07:24:32.601Z",
+            "updated_at": "2025-02-08T07:24:32.851Z",
+            "user": {
+                "first_name": "Cypress",
+                "last_name": "test"
+            }
+        },
+        {
+            "id": "3a5bb9ec-aa32-4094-85f5-abded4c98c1b",
+            "name": "Bug tracker",
+            "slug": "3a5bb9ec-aa32-4094-85f5-abded4c98c1b",
+            "is_public": false,
+            "is_maintenance_on": false,
+            "icon": "sentfast",
+            "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "current_version_id": null,
+            "user_id": "5538d429-04f0-4ec9-9666-17c85016905c",
+            "created_at": "2025-02-08T07:23:20.740Z",
+            "updated_at": "2025-02-08T07:23:21.682Z",
+            "user": {
+                "first_name": "Cypress",
+                "last_name": "test"
+            }
+        },
+        {
+            "id": "4dc37e76-bb2a-4b16-81f9-bb4f019439a8",
+            "name": "Tooljet",
+            "slug": "4dc37e76-bb2a-4b16-81f9-bb4f019439a8",
+            "is_public": null,
+            "is_maintenance_on": false,
+            "icon": "folderupload",
+            "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "current_version_id": null,
+            "user_id": "5538d429-04f0-4ec9-9666-17c85016905c",
+            "created_at": "2025-02-08T07:22:03.635Z",
+            "updated_at": "2025-02-08T07:22:03.634Z",
+            "user": {
+                "first_name": "Cypress",
+                "last_name": "test"
+            }
+        },
+        {
+            "id": "60eecb4d-3ff8-422c-9981-14561937dbf2",
+            "name": "vinay-tooljet100",
+            "slug": "60eecb4d-3ff8-422c-9981-14561937dbf2",
+            "is_public": false,
+            "is_maintenance_on": false,
+            "icon": "server",
+            "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "current_version_id": null,
+            "user_id": "5538d429-04f0-4ec9-9666-17c85016905c",
+            "created_at": "2025-02-07T05:53:05.328Z",
+            "updated_at": "2025-02-07T05:53:05.549Z",
+            "user": {
+                "first_name": "Cypress",
+                "last_name": "test"
+            }
+        },
+        {
+            "id": "9e3316be-1303-4a5d-a9a0-e8d4de8f83b3",
+            "name": "vinay-tooljet75",
+            "slug": "9e3316be-1303-4a5d-a9a0-e8d4de8f83b3",
+            "is_public": false,
+            "is_maintenance_on": false,
+            "icon": "table",
+            "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "current_version_id": null,
+            "user_id": "5538d429-04f0-4ec9-9666-17c85016905c",
+            "created_at": "2025-02-07T05:52:54.065Z",
+            "updated_at": "2025-02-07T05:52:55.932Z",
+            "user": {
+                "first_name": "Cypress",
+                "last_name": "test"
+            }
+        },
+        {
+            "id": "d0c065e4-e466-4525-bb2b-09044d641d66",
+            "name": "vinay-tooljet50",
+            "slug": "d0c065e4-e466-4525-bb2b-09044d641d66",
+            "is_public": null,
+            "is_maintenance_on": false,
+            "icon": "share",
+            "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "current_version_id": null,
+            "user_id": "5538d429-04f0-4ec9-9666-17c85016905c",
+            "created_at": "2025-02-07T05:52:48.316Z",
+            "updated_at": "2025-02-07T05:52:48.314Z",
+            "user": {
+                "first_name": "Cypress",
+                "last_name": "test"
+            }
+        },
+        {
+            "id": "ba950569-e8fc-4a20-9405-121826440af2",
+            "name": "vinay-tooljet40",
+            "slug": "ba950569-e8fc-4a20-9405-121826440af2",
+            "is_public": false,
+            "is_maintenance_on": false,
+            "icon": "server",
+            "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "current_version_id": null,
+            "user_id": "5538d429-04f0-4ec9-9666-17c85016905c",
+            "created_at": "2025-02-06T13:05:58.752Z",
+            "updated_at": "2025-02-06T13:05:58.963Z",
+            "user": {
+                "first_name": "Cypress",
+                "last_name": "test"
+            }
+        }
+    ]
+}

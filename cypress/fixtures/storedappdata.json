@@ -1,0 +1,17 @@
+{
+    "data_sources": [
+        {
+            "id": "67af068f-2174-49fd-9299-c234299206e4",
+            "name": "Sample data source",
+            "kind": "postgresql",
+            "type": "sample",
+            "plugin_id": null,
+            "app_version_id": null,
+            "organization_id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "scope": "global",
+            "created_at": "2025-01-20T08:13:53.719Z",
+            "updated_at": "2025-01-20T08:13:53.719Z",
+            "plugin": null
+        }
+    ]
+}

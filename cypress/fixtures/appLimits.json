@@ -1,0 +1,12 @@
+{
+    "appsCount": {
+        "canAddUnlimited": true,
+        "licenseStatus": {
+            "isLicenseValid": true,
+            "isExpired": false,
+            "licenseType": "enterprise",
+            "expiryDate": "2026-02-07T23:59:59.000Z"
+        },
+        "label": "Apps"
+    }
+}

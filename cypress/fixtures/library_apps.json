@@ -1,0 +1,1096 @@
+{
+    "template_app_manifests": [
+        {
+            "name": "Admin Panel (ToolJet Database)",
+            "description": "Effortlessly manage your databases with our intuitive TJDB admin panel, designed for optimal control and efficiency.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "admin-panel-tooljet-db",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "Advanced data visualization",
+            "description": "Transform ToolJet DB data into interactive charts and graphs. Uncover trends and make data-driven decisions effortlessly using advanced visualizations.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "RestAPI",
+                    "id": "restapi"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "advanced-data-visualization",
+            "category": "data-and-analytics"
+        },
+        {
+            "name": "AI powered code explainer",
+            "description": "Simplify code understanding with Gemini AI and Rest API, providing instant explanations and real-time insights.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "RestAPI",
+                    "id": "restapi"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "ai-powered-code-explainer",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "AI powered reimbursement tracker with OCR",
+            "description": "Streamline expense management with Gemini AI and REST API. Automate receipt scanning, data extraction, and approval workflows.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "RestAPI",
+                    "id": "restapi"
+                },
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "AWS S3",
+                    "id": "s3"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "ai-powered-reimbursement-tracker-with-ocr",
+            "category": "human-resources"
+        },
+        {
+            "name": "AI powered SQL query generator",
+            "description": "Leverage Gemini AI and REST API to generate optimized SQL queries. Enhance database performance and simplify complex data retrieval.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "RestAPI",
+                    "id": "restapi"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "ai-powered-sql-query-generator",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "Applicant tracking system",
+            "description": "Streamline hiring with customizable job posts, candidate profiles, and interview status tracking with this simple yet powerful template.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "applicant-tracking-system",
+            "category": "human-resources"
+        },
+        {
+            "name": "AWS S3 file explorer",
+            "description": "Navigate Amazon S3 buckets, search, preview, and manage objects with an easy-to-use web explorer for S3 storage.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "AWS S3",
+                    "id": "s3"
+                }
+            ],
+            "id": "aws-s3-file-explorer",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "Base64 encoder & decoder",
+            "description": "Encrypt and decrypt data for secure transmission and storage.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "base64-encoder-decoder",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "Bill of materials",
+            "description": "Accurately plan, track, and manage your material requirements with our streamlined Bill of Materials solution.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "bill-of-materials",
+            "category": "operations"
+        },
+        {
+            "name": "Bug tracker",
+            "description": "Streamline issue tracking and reporting with a centralized platform for developers and testers.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "bug-tracker",
+            "category": "product-management"
+        },
+        {
+            "name": "Business intelligence dashboard (PostgreSQL)",
+            "description": "Gain valuable insights and make data-driven decisions with our powerful business intelligence dashboard.",
+            "widgets": [
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "PostgreSQL",
+                    "id": "postgresql"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "business-intelligence-dashboard-postgresql",
+            "category": "data-and-analytics"
+        },
+        {
+            "name": "Colour palette generator",
+            "description": "Discover harmonious colour combinations for your designs with this intuitive palette generator.",
+            "widgets": [
+                "Listview"
+            ],
+            "sources": [
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "colour-palette-generator",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "Course management system",
+            "description": "Streamline course administration with tools for planning, scheduling, and managing educational content and student progress with clean UI and TJDB as backend.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "course-management-system",
+            "category": "educational-technology"
+        },
+        {
+            "name": "Customer support admin",
+            "description": "The Customer Support Admin template streamlines support with a Main Dashboard for ticket management and All Contacts for maintaining customer data.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "SMTP",
+                    "id": "smtp"
+                }
+            ],
+            "id": "customer-support-admin",
+            "category": "customer-support"
+        },
+        {
+            "name": "Customer ticketing form",
+            "description": "The Customer Ticketing Form optimizes support ticket management, seamlessly gathering customer info and tracking ticket progress with deep integration into Customer Support Admin.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "SMTP",
+                    "id": "smtp"
+                }
+            ],
+            "id": "customer-ticketing-form",
+            "category": "customer-support"
+        },
+        {
+            "name": "Digital asset management",
+            "description": "Efficiently organize, store, and retrieve your digital assets with robust search, tagging, and version control capabilities with TJDB as the database.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "digital-asset-management",
+            "category": "product-management"
+        },
+        {
+            "name": "Digital marketing campaign manager",
+            "description": "Plan, execute, and analyze your digital marketing campaigns with precision using our comprehensive UTM campaign manager.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "digital-marketing-campaign-manager",
+            "category": "sales-and-marketing"
+        },
+        {
+            "name": "Documentation checklist",
+            "description": "Streamline documentation processes using ToolJet DB, ensuring real-time tracking of tasks and updates.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "documentation-checklist",
+            "category": "human-resources"
+        },
+        {
+            "name": "Employee directory",
+            "description": "Manage employee contact information and profiles in a centralized database built on the ToolJet database.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "employee-directory",
+            "category": "human-resources"
+        },
+        {
+            "name": "Employee feedback",
+            "description": "Collect valuable insights and foster a positive work environment with anonymous employee feedback tools.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "employee-feedback",
+            "category": "human-resources"
+        },
+        {
+            "name": "Employee time tracker",
+            "description": "Accurately track employee hours and boost productivity with a user-friendly time tracking system.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "employee-time-tracker",
+            "category": "human-resources"
+        },
+        {
+            "name": "Expense tracker admin",
+            "description": "Update and manage employee expenses centrally through an admin dashboard built with ToolJet web UI and database.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "expense-tracker-admin",
+            "category": "human-resources"
+        },
+        {
+            "name": "Expense tracker portal",
+            "description": "Submit and track personal expenses through an easy portal built with a ToolJet web UI and database.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "expense-tracker-portal",
+            "category": "human-resources"
+        },
+        {
+            "name": "Finance underwriting - Admin",
+            "description": "Efficiently evaluate and approve financial applications with our robust underwriting admin platform.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "finance-underwriting-admin",
+            "category": "financial-services"
+        },
+        {
+            "name": "Finance underwriting - User form",
+            "description": "Apply for financial services seamlessly with our user-friendly underwriting form.",
+            "widgets": [
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "finance-underwriting-user-form",
+            "category": "financial-services"
+        },
+        {
+            "name": "Google cloud storage explorer",
+            "description": "Browse, search, upload, download, and manage objects in Google Cloud Storage buckets through an intuitive ToolJet web interface.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "GCS",
+                    "id": "gcs"
+                }
+            ],
+            "id": "google-cloud-storage-explorer",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "Image converter",
+            "description": "Optimize image processing, switch between WebP, PNG, and JPEG, reduce file sizes, and rename files in one step.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "image-converter",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "Inventory management (Airtable)",
+            "description": "Organize product catalog in Airtable base with fields for details, inventory, and pricing to manage merchandise.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "Airtable",
+                    "id": "airtable"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "inventory-management-airtable",
+            "category": "operations"
+        },
+        {
+            "name": "Inventory management (PostgreSQL)",
+            "description": "Track inventory levels, orders, and shipments using a PostgreSQL database to monitor and optimize stock.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "PostgreSQL",
+                    "id": "postgresql"
+                }
+            ],
+            "id": "inventory-management-postgresql",
+            "category": "operations"
+        },
+        {
+            "name": "Inventory management (ToolJet Database)",
+            "description": "Easily manage, control, and optimise your inventory with our single-page Inventory Management Template.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "inventory-management-tooljet-db",
+            "category": "operations"
+        },
+        {
+            "name": "Invoice tracker and generator",
+            "description": "Monitor payments and invoices with Stripe and ToolJet DB, offering real-time tracking and financial insights.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "invoice-tracker-and-generator",
+            "category": "financial-services"
+        },
+        {
+            "name": "Job application tracker",
+            "description": "Centralize job applications in a Google Sheet with custom columns for position, date applied, status, and notes to streamline tracking.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "Google Sheets",
+                    "id": "googlesheets"
+                }
+            ],
+            "id": "job-application-tracker",
+            "category": "human-resources"
+        },
+        {
+            "name": "JSON formatter",
+            "description": "Format and customize JSON data display for improved readability and easier manipulation, streamlining debugging processes.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "json-formatter",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "KPI management dashboard (Airtable)",
+            "description": "Monitor essential product metrics with the AARRR pirate metrics framework using dynamic dashboards and Airtable as the backend.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "Airtable",
+                    "id": "airtable"
+                }
+            ],
+            "id": "kpi-management-dashboard-airtable",
+            "category": "data-and-analytics"
+        },
+        {
+            "name": "KPI management dashboard (ToolJet Database)",
+            "description": "Monitor essential product metrics with the AARRR pirate metrics framework using dynamic dashboards and the ToolJet database.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "kpi-management-dashboard-tooljet-db",
+            "category": "data-and-analytics"
+        },
+        {
+            "name": "Lead management system",
+            "description": "The Lead Management System template streamlines lead lifecycle with four status templates: Leads (capturing potential leads) and Opportunities (converting leads), along with Customers (effective relationship management) and Lost (learning from lost opportunities).",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "lead-management-system",
+            "category": "sales-and-marketing"
+        },
+        {
+            "name": "Leave management system for admins",
+            "description": "Manage employee leave requests and approvals efficiently with a centralized admin panel.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "leave-management-system-for-admins",
+            "category": "human-resources"
+        },
+        {
+            "name": "Leave management system for employees",
+            "description": "Request, track, and manage your leave balances seamlessly with a convenient employee portal.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "leave-management-system-for-employees",
+            "category": "human-resources"
+        },
+        {
+            "name": "Library management system",
+            "description": "This template offers a complete solution for managing library resources efficiently, with streamlined cataloging and search.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "library-management-system",
+            "category": "operations"
+        },
+        {
+            "name": "Lorem ipsum generator",
+            "description": "Generate placeholder text instantly for your design projects with our user-friendly lorem ipsum generator.",
+            "widgets": [
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "lorem-ipsum-generator",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "Mortgage calculator",
+            "description": "Quickly estimate monthly payments and compare rates with this user-friendly mortgage calculator.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "mortgage-calculator",
+            "category": "financial-services"
+        },
+        {
+            "name": "Personal finance tracker",
+            "description": "Track spending and budget in real-time with ToolJet DB, helping users stay on top of their finances effortlessly.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "personal-finance-tracker",
+            "category": "financial-services"
+        },
+        {
+            "name": "Placeholder image generator",
+            "description": "Create customizable placeholder images for web development, with options for size, colors, format, and text.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "placeholder-image-generator",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "PostgreSQL database explorer",
+            "description": "Navigate, explore, and manage PostgreSQL tables seamlessly with our user-friendly database explorer.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "PostgreSQL",
+                    "id": "postgresql"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "postgresql-database-explorer",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "Promo code management",
+            "description": "Create, track, and manage promotional codes and discounts with customizable rules, limits, and automated reporting.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "promo-code-management",
+            "category": "sales-and-marketing"
+        },
+        {
+            "name": "Promo code management (PostgreSQL)",
+            "description": "Efficiently manage and track promotional codes using our robust PostgreSQL powered application.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "PostgreSQL",
+                    "id": "postgresql"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "promo-code-management-postgresql",
+            "category": "sales-and-marketing"
+        },
+        {
+            "name": "Real estate management",
+            "description": "Centralize property listings, tenant information, and maintenance schedules with ToolJet DB based application. ",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "real-estate-management",
+            "category": "operations"
+        },
+        {
+            "name": "Release notes",
+            "description": "Stay informed about new features and bug fixes with clear and concise release notes.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "release-notes",
+            "category": "product-management"
+        },
+        {
+            "name": "Saas license management",
+            "description": "Simplify subscription management for your SaaS products with automated tracking and controls.",
+            "widgets": [
+                "Table"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "saas-license-management",
+            "category": "customer-support"
+        },
+        {
+            "name": "Sales analytics dashboard (Snowflake)",
+            "description": "Visualize key sales metrics like total customers, revenue, AoV, and ROI using interactive dashboards for data-driven insights with Snowflake as the backend.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "Snowflake",
+                    "id": "snowflake"
+                }
+            ],
+            "id": "sales-analytics-dashboard-snowflake",
+            "category": "data-and-analytics"
+        },
+        {
+            "name": "Sales analytics dashboard (ToolJet Database)",
+            "description": "The Sales Analytics Dashboard template offers comprehensive sales monitoring and insights with four key sections: Main Dashboard (critical metrics), Orders (order details), Customers (demographics & history), and Products (product performance).",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "sales-analytics-dashboard-tooljet-db",
+            "category": "data-and-analytics"
+        },
+        {
+            "name": "Simple marketplace",
+            "description": "Discover a world of products and enjoy a seamless internal shopping experience on our user-friendly marketplace.",
+            "widgets": [
+                "Listview"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "simple-marketplace",
+            "category": "operations"
+        },
+        {
+            "name": "Simple marketplace - Admin",
+            "description": "Take complete control of your online marketplace with our comprehensive admin interface.",
+            "widgets": [
+                "Listview"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "simple-marketplace-admin",
+            "category": "operations"
+        },
+        {
+            "name": "SQL query formatter",
+            "description": "Format SQL queries for better readability and understanding, with customizable styling options to suit different coding preferences and standards.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "sql-query-formatter",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "Strong password generator",
+            "description": "Generate secure passwords with adjustable strength and complexity for personal or team use.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "strong-password-generator",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "Student attendance tracker",
+            "description": "Accurately track and record student attendance with individual markings and comprehensive reporting features for better oversight.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "student-attendance-tracker",
+            "category": "educational-technology"
+        },
+        {
+            "name": "Student management system",
+            "description": "Centralize student data management, including grades, attendance, and communications, for improved efficiency and accessibility.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                },
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "student-management-system",
+            "category": "educational-technology"
+        },
+        {
+            "name": "Supply chain management",
+            "description": "The Supply Chain Management template optimizes operations with a Main Dashboard for KPIs, Product Inventory for stock management, and All Orders for tracking and updates.",
+            "widgets": [
+                "Table",
+                "Chart"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "supply-chain-management",
+            "category": "operations"
+        },
+        {
+            "name": "Task management system",
+            "description": "ToolJet DB-powered productivity tool for organizing tasks, setting priorities, and tracking progress. Boost personal and team efficiency.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "task-management-system",
+            "category": "product-management"
+        },
+        {
+            "name": "Transportation logistics tracker",
+            "description": "Optimize logistics operations with real-time tracking, route planning, and key analytics for effective transportation management.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "ToolJet Database",
+                    "id": "tooljetdb"
+                }
+            ],
+            "id": "transportation-logistics-tracker",
+            "category": "operations"
+        },
+        {
+            "name": "URL splitter and parser",
+            "description": "Break down URLs into individual components for easy analysis and debugging in web development.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "url-splitter-and-parser",
+            "category": "developer-utilities"
+        },
+        {
+            "name": "UTF-8 encoder and decoder",
+            "description": "Encode and decode text to and from UTF-8 for enhanced text processing, facilitating multilingual support and accurate data transmission.",
+            "widgets": [
+                "Table",
+                "Container"
+            ],
+            "sources": [
+                {
+                    "name": "Run JavaScript",
+                    "id": "runjs"
+                }
+            ],
+            "id": "utf-8-encoder-and-decoder",
+            "category": "developer-utilities"
+        }
+    ]
+}

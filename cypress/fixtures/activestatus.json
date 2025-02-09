@@ -1,0 +1,29 @@
+{
+    "organizations": [
+        {
+            "id": "3aca67e0-21d7-4095-88e4-87c0ceb522be",
+            "name": "My workspace 1737360907263",
+            "slug": "my-workspace-1737360907263",
+            "domain": null,
+            "enable_sign_up": false,
+            "inherit_s_s_o": true,
+            "automatic_sso_login": false,
+            "status": "active",
+            "created_at": "2025-01-20T08:15:07.263Z",
+            "updated_at": "2025-01-20T08:15:07.263Z"
+        },
+        {
+            "id": "01980ef8-19c1-4c05-89a9-aef8be56b9d4",
+            "name": "QA Automation",
+            "slug": "qa-automation",
+            "domain": null,
+            "enable_sign_up": false,
+            "inherit_s_s_o": true,
+            "automatic_sso_login": false,
+            "status": "active",
+            "created_at": "2025-01-20T08:13:53.720Z",
+            "updated_at": "2025-01-20T08:13:53.720Z"
+        }
+    ],
+    "total_count": 2
+}

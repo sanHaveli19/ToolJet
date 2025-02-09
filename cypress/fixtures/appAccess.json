@@ -1,0 +1,19 @@
+{
+    "openid": true,
+    "auditLogs": true,
+    "ldap": true,
+    "saml": true,
+    "customStyling": true,
+    "whiteLabelling": true,
+    "customThemes": true,
+    "multiEnvironment": true,
+    "multiPlayerEdit": true,
+    "gitSync": true,
+    "comments": true,
+    "licenseStatus": {
+        "isLicenseValid": true,
+        "isExpired": false,
+        "licenseType": "enterprise",
+        "expiryDate": "2026-02-07T23:59:59.000Z"
+    }
+}
